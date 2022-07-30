@@ -1,0 +1,48 @@
+
+#contato{
+  max-width: 900px;
+  padding: 15px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.section_contato{
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.section_contato .title_contato, 
+.section_contato .text_contato{
+  text-align: center;
+  padding: 5px;
+}
+
+.label, 
+.btn{
+  font-weight: bold;
+}
+
+.label{
+  margin-bottom: 5px;
+}
+
+.input{
+  border: 2px solid #27A148;
+  border-radius: 5px;
+  /* width: 100%; */
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.btn{
+  align-self: center;
+  cursor: pointer;
+  background-color: #68ED8D;
+  color: #27A148;
+  border: none;
+  font-size: 1.125rem;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 15px;
+}

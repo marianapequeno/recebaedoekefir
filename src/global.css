@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  color: #27A148;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+}

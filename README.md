@@ -6,7 +6,7 @@
 com no máximo 4 seções, se optar por um layout de página única;
 * Independente do formato que escolher (respeitando o limite de 4 páginas ou de 4 seções), desenvolver algo relacionado a um negócio, um projeto social ou um projeto colaborativo;
 * Aplicar os conceitos aprendidos durante o curso, com as tecnologias: HTML & CSS, Javascript e React;
-* Publicar o projeto no GitHub Pages (https://pages.github.com/) ou no Netlify;
+* Publicar o projeto no [GitHub Pages](https://pages.github.com/) ou no [Netlify](https://www.netlify.com/);
 
 # Informações sobre o projeto
 

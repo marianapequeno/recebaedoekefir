@@ -29,7 +29,7 @@ function Comunidade() {
 
       <section className="section-form">
         <h2 className="title-1">Cadastre-se em para doar ou receber</h2>
-        <p>Caso não tenha achado alguém na sua região cadastre-se abaixo: </p>
+        <p className="paragraph">Caso não tenha achado alguém na sua região cadastre-se abaixo: </p>
         <form 
           action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfK8FbK372inolVMn4ktUI7TebDKpFbWwReu7vnTzP-8UdCSA/formResponse"
           name="contato"

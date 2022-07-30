@@ -1,0 +1,20 @@
+.main .section-map{
+  height: 50vh;
+  margin: 20px 0;
+}
+
+.main .section-map .title-2{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.main .section-form{
+  margin-top: 120px;
+}
+
+.main .section-form .title-1{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}

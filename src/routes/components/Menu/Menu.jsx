@@ -3,6 +3,11 @@ import './menu.css'
 import image from '../../../assets/logo.png'
 
 function Menu() {
+  function handleClick(){
+    const menuList = document.querySelector(".menu-list-mobile");
+    menuList.classList.toggle("inativo");
+  }
+
   return (
     <nav className="menu">
       <ul className="menu-list-desktop">
@@ -20,7 +25,7 @@ function Menu() {
       <div className="menu-mobile">
          <img src={image} alt="Logotipo Comunidade Kefir" className="link-mobile menu-img"/>
          <p className="paragraph">Doe Kefir</p>
-         <div className="menu-btn-mobile">
+         <div className="menu-btn-mobile" onClick={handleClick}>
           <span className="bar-mobile"></span>
           <span className="bar-mobile"></span>
           <span className="bar-mobile"></span>

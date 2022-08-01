@@ -1,30 +1,12 @@
 import React from 'react';
 import './comunidade.css';
-import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 
 function Comunidade() {
-  const { isLoaded } = useJsApiLoader({
-    id: 'google-map-script',
-    googleMapsApiKey: "AIzaSyBuWY6bhoKldVwfOCN-PV6sYF9an1_6Z34"
-  })
-
   return (
     <main className="main">
       <section className="section-map">
         <h2 className="title-2">Encontre um doador na sua região</h2>
-        {
-          isLoaded ? (
-            <GoogleMap
-              mapContainerStyle={{width: "100%", height: "100%", margin: "auto"}}
-              center={{
-                lat: -23.549782,
-                lng: -46.633925
-              }}
-              zoom={15}
-            >
-            </GoogleMap>
-        ) : <></>
-        }
+    {/*Incluir mapa*/}
       </section>
 
       <section className="section-form">

@@ -22,3 +22,12 @@
 .paragraph{
   text-align: center;
 }
+
+.radio{
+  margin-bottom: 10px;
+}
+
+.radio input{
+  width: 20px;
+  height: 15px;
+}

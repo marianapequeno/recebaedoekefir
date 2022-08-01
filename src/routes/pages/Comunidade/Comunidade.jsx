@@ -28,8 +28,9 @@ function Comunidade() {
       </section>
 
       <section className="section-form">
-        <h2 className="title-1">Cadastre-se em para doar ou receber</h2>
+        <h2 className="title-1">Ou cadastre-se para doar ou receber</h2>
         <p className="paragraph">Caso não tenha achado alguém na sua região cadastre-se abaixo: </p>
+       
         <form 
           action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfK8FbK372inolVMn4ktUI7TebDKpFbWwReu7vnTzP-8UdCSA/formResponse"
           name="contato"
@@ -56,6 +57,15 @@ function Comunidade() {
             required
           />
 
+          <label htmlFor="telefone" className="label">Telefone ou Num do WhatsApp</label>
+          <input 
+            type="tel" 
+            name="entry.489025120" 
+            id="telefone" 
+            className="input"
+            placeholder="Seu número de contato"  
+          />
+
           <label htmlFor="estado" className="label">Estado</label>
           <input type="text" name="entry.753205699" id="estado" className="input" placeholder="Digite seu estado" required/>
 
@@ -65,7 +75,16 @@ function Comunidade() {
           <label htmlFor="bairro" className="label">Bairro</label>
           <input type="text" name="entry.864223599" id="bairro" className="input" placeholder="Digite o nome do seu bairro" required/>
 
-          <button type="submit" className="btn">Enviar</button>
+          <div className="radio">
+            <input type="radio" name="entry.1963115737_sentinel" id="doar" value="doar" required/>
+            <label htmlFor="doar">Quero doar</label>
+          </div>
+          <div className="radio">
+            <input type="radio" name="entry.1963115737_sentinel" id="receber" value="receber" required/>
+            <label htmlFor="receber">Quero receber</label>
+          </div>
+
+          <button type="submit" className="btn" onClick={handleClick}>Enviar</button>
         </form>
       </section>
     </main>

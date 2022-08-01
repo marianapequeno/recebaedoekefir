@@ -84,7 +84,7 @@ function Comunidade() {
             <label htmlFor="receber">Quero receber</label>
           </div>
 
-          <button type="submit" className="btn" onClick={handleClick}>Enviar</button>
+          <button type="submit" className="btn">Enviar</button>
         </form>
       </section>
     </main>

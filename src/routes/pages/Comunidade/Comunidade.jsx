@@ -12,11 +12,6 @@ function Comunidade() {
     <main className="main">
       <section className="section-map">
         <h2 className="title-2">Encontre um doador na sua região</h2>
-        {/* {
-          isLoaded ? (
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d272019.7847591658!2d-46.7078731913693!3d-23.73555255157942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1661545539641!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        ) : <></>
-        } */}
       </section>
 
       <section className="section-form">

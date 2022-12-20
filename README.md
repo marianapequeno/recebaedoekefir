@@ -30,7 +30,7 @@ Projeto de conclusão do curso - Bootcamp Todas Em Tech, Reprograma.
 | `netlify` | Hospedagem|
 
 ## Instruções para baixar o projeto
-1. Clone este repositório: `git clone https://github.com/marianapequeno/recebaedoe.git`
+1. Clone este repositório: `git clone https://github.com/marianapequeno/recebaedoekefir.git`
 2. Entre no diretório: `cd recebaedoe`
 3. Baixe as dependências: `npm install` ou `yarn ` 
 4. Execute o projeto: `npm run dev`

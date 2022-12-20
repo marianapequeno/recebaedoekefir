@@ -1,18 +1,14 @@
-# Projeto final [{reprograma}](https://reprograma.com.br/)
+# Recebe e Doe Kefir
 
-### Desafio: 
+## Descrição: 
+Projeto de conclusão do curso - Bootcamp Todas Em Tech, Reprograma.
 
-* Desenvolver ou um Website com no máximo 4 páginas de interação, ou um One Page Layout,
-com no máximo 4 seções, se optar por um layout de página única;
-* Independente do formato que escolher (respeitando o limite de 4 páginas ou de 4 seções), desenvolver algo relacionado a um negócio, um projeto social ou um projeto colaborativo;
-* Aplicar os conceitos aprendidos durante o curso, com as tecnologias: HTML & CSS, Javascript e React;
-* Publicar o projeto no [GitHub Pages](https://pages.github.com/) ou no [Netlify](https://www.netlify.com/);
+* Desafio: Criar uma ideia de negócio com impacto social (tema livre) e desenvolver um website para essa empresa.
+* Meu projeto: Uma comunidade de doadores e interessados em Kefir, usando a API do Google Maps para criar os pontos de coleta e um formulário de cadastro.
 
-# Informações sobre o projeto
+[Veja este projeto](https://recebaedoekefir.netlify.app/) :point_left: :woman_technologist:
 
-[Meu projeto](https://recebaedoe.netlify.app/) :point_left: :woman_technologist:
-
-### Tecnologias Utilizadas:
+## Tecnologias Utilizadas:
 <div>
   <a href="https://pt-br.reactjs.org/"><img align="center" alt="Logo-React" height="20" width="30"  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></a>
   <a href="https://git-scm.com/"><img align="center" alt="Logo do Git" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" /></a>
@@ -24,10 +20,17 @@ com no máximo 4 seções, se optar por um layout de página única;
 | Ferramenta | Descrição |
 | --- | --- |
 | `vite` | Gerador de projeto front-end |
-| `ReactJS` | Biblioteca javascript|
+| `reactJS` | Biblioteca javascript|
+| `javascript` | Linguagem de programação usada|
+| `git` | Versionamento|
 | `npm` | Gerenciador de pacotes|
-| `react-router-dom` | Criador de rotas|
-| `netlify` | Hospedagem|
+| `react-router-dom` | Biblioteca react para criar as rotas|
 | `css` | Folhas de estilos|
-| `Google fonts` | Fonte|
 | `API Google Maps` | Mapa |
+| `netlify` | Hospedagem|
+
+## Instruções para baixar o projeto
+1. Clone este repositório: `git clone https://github.com/marianapequeno/recebaedoe.git`
+2. Entre no diretório: `cd recebaedoe`
+3. Baixe as dependências: `npm install` ou `yarn ` 
+4. Execute o projeto: `npm run dev`
